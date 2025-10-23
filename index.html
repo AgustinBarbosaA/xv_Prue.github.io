@@ -19,7 +19,7 @@
             font-family: 'Inter', sans-serif;
             background-color: #f7f3f8; /* Color de fallback */
             /* --- INICIO: ESTILOS DE IMAGEN DE FONDO --- */
-            background-image: url('rosa3.jpg'); /* REEMPLAZAR CON TU IMAGEN */
+            background-image: url('rosa4.jpg'); /* REEMPLAZAR CON TU IMAGEN */
             background-size: cover; /* Cubre toda la pantalla */
             background-repeat: no-repeat;
             background-attachment: fixed; /* Mantiene la imagen fija al hacer scroll */
@@ -181,13 +181,13 @@
             <!-- Padres -->
             <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-pink-400">
                 <p class="text-xl font-semibold mb-3 text-gray-800">Padres</p>
-                <p class="text-lg text-gray-700">Erick Eunir Ledesma</p>
                 <p class="text-lg text-gray-700">Wendy Ponce</p>
+                <p class="text-lg text-gray-700">Erick Eumir Ledesma</p>
             </div>
             <!-- Padrinos -->
             <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-pink-400">
                 <p class="text-xl font-semibold mb-3 text-gray-800">Padrinos</p>
-                <p class="text-lg text-gray-700">No me acuerdo & preguntar</p>
+                <p class="text-lg text-gray-700">Diego Rojas & Ximena Gabino</p>
                 <p class="text-sm text-gray-600 mt-2 italic">Agradecemos su amor y presencia.</p>
             </div>
         </div>
@@ -244,15 +244,18 @@
             <div id="photo-carousel" class="w-full h-full relative">
                 <!-- Item 1 -->
                 <div class="carousel-item active">
-                    <img src="F3.jpg" alt="" class="object-cover w-full h-full">
+                    <img src="F1.jpg" alt="" class="object-cover w-full h-full">
                 </div>
                 <!-- Item 2 -->
                 <div class="carousel-item">
-                    <img src="F1.jpg" alt="" class="object-cover w-full h-full">
+                    <img src="F2.jpg" alt="" class="object-cover w-full h-full">
                 </div>
                 <!-- Item 3 -->
                 <div class="carousel-item">
-                    <img src="F2.jpg" alt="" class="object-cover w-full h-full">
+                    <img src="F3.jpg" alt="" class="object-cover w-full h-full">
+                </div>
+                 <div class="carousel-item active">
+                    <img src="F4.jpg" alt="" class="object-cover w-full h-full">
                 </div>
             </div>
 
@@ -323,7 +326,7 @@
                                                                 Código de Vestimenta
                                                             </p>
                                                             <p class="text-lg text-gray-700 font-bold">Formal y SemiFormal</p>
-                                                            <p class="text-md text-gray-600 italic">Se sugieren tonalidades pastel o colores claros para armonizar con el evento. Evitar el rosa.</p>
+                                                            <p class="text-md text-gray-600 italic">Para hacer este día aún más especial, les pedimos no usar colores rosa, fucsia o similares. ¡Gracias por ayudar a que este momento sea inolvidable!.</p>
                                                             
                                                         </div>
 
@@ -365,8 +368,8 @@
                         Mesa de Regalo
                     </p>
                     <p class="text-md text-gray-700">Tu presencia es el mejor regalo.</p>
-                    <p class="text-sm text-gray-600 italic mt-2">Si deseas obsequiar algo, agregamos una lista de los de los gustos de la cumpleañera, lo agradecemos de todo corazón.</p>
-                   <a href="https://www.youtube.com/watch?v=XWsptjpzBW0" target="_blank" class="mt-4 inline-block bg-pink-600 text-white font-semibold py-2 px-4 rounded-full hover:bg-pink-700 transition duration-300 shadow-md">
+                    <p class="text-sm text-gray-600 italic mt-2">Si deseas obsequiar algo, agregamos una lista de los de los gustos de la cumpleañera o tendremos la dinamica de lluvia de sobres, lo agradecemos de todo corazón.</p>
+                   <a href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51815061" target="_blank" class="mt-4 inline-block bg-pink-600 text-white font-semibold py-2 px-4 rounded-full hover:bg-pink-700 transition duration-300 shadow-md">
                         Ver Opciones de Regalo
                     </a>
                 </div>
@@ -440,7 +443,7 @@
         window.onload = function() {
             showSlide(0);
             // Iniciar carrusel automático (opcional, se puede comentar)
-            setInterval(nextSlide, 5000);
+            setInterval(nextSlide, 8000);
 
             // Iniciar el conteo regresivo
             updateCountdown();
@@ -450,7 +453,7 @@
 
         // ============== Lógica de la Cuenta Regresiva ==============
         // Fecha y hora del evento: 17 de Enero de 2026 a las 6:00 PM (18:00 hrs)
-        const targetDate = new Date('January 17, 2026 18:00:00').getTime();
+        const targetDate = new Date('January 17, 2026 17:45:00').getTime();
 
         const daysEl = document.getElementById('days');
         const hoursEl = document.getElementById('hours');
